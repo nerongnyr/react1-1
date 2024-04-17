@@ -8,7 +8,7 @@ export default function FocusButton (props) {
     }
     return (
         <>
-           <input ref={imputElem} type="text" />
+           <input ref={inputElem} type="text" />
            <button onClick={onButtonClick}>Focus the input</button>
         </>
     )
