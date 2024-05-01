@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Counter from './Counter';
+import Accommodate from './Accommodate';
 
 function App() {
   return (
     <div className="App">
-      <Counter />
+      <Accommodate />
     </div>
   );
 }
