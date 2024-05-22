@@ -1,13 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import Accommodate from './Accommodate';
+//import './App.css';
+import NumberList from './NumberList';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <Accommodate />
+      <NumberList />
     </div>
   );
-}
 
-export default App;
+}
