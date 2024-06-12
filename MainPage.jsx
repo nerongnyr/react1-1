@@ -25,17 +25,17 @@ const Block = styled.div`
 
 const blockItem = [
     {
-        lavel: '1',
+        label: '1',
         padding: '1rem',
         backgroundColor: 'red'
     },
     {
-        lavel: '2',
+        label: '2',
         padding: '3rem',
         backgroundColor: 'green'
     },
     {
-        lavel: '3',
+        label: '3',
         padding: '4rem',
         backgroundColor: 'blue'
     }
@@ -56,7 +56,7 @@ export default function MainPage() {
                     padding={blockItem.padding}
                     backgroundColor={blockItem.backgroundColor}
                 >
-                    {blockItem.lavel}
+                    {blockItem.label}
                 </Block>
             })}
         </Wrapper>
